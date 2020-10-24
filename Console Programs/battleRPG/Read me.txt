@@ -1,0 +1,3 @@
+Hey guys!
+
+This is a RPG battle script which i created. It still has some bugs in it and i will update the code as soon as possible. But the game is pretty much playable.
