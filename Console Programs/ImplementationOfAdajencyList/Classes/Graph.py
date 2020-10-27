@@ -14,10 +14,10 @@ class Graph:
     def print_graph(self):
         for node in self.nodes:
             print(node, ">-", self.adajency_list[node])
-            print(bool(self.adajency_list[node]))
 
-    def degree(self, node):
-        return len(self.adajency_list[node])
+    def degree(self):
+        node = input("Enter node to get it's degree: ")
+        print(len(self.adajency_list[node.upper()]))
 
     def dfs_traversal(self, a, b, explored, path):
         explored[self.nodes.index(a)] = True
